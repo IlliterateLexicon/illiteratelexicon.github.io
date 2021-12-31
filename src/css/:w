@@ -1,0 +1,35 @@
+:root {
+	/* Coolors Pallete https://bit.ly/3EzeBdb */
+	--aero: #8eb8e5;
+	--medium-spring-green: #50ffb1;
+	--maize-crayola: #f4c95d;
+	--burnished-brown: #a78682;
+	--independence: #45425a;
+	--warm-black: #104547;
+	--russian-violet: #320e3b;
+	--oxford-blue: #0e1c36;
+	--davys-grey: #4c5454;
+	--eerie-black: #1c1c1c;
+}
+
+* {
+    margin:0;
+}
+
+h1 {
+	font-size: 20pt;
+}
+
+.title_bar {
+	background-color: var(--eerie-black);
+	padding: 10px;
+	width: 100%;
+}
+
+.title_bar h1 {
+	color: var(--aero);	
+}
+
+.title_bar h1 {
+	color: red;	
+}

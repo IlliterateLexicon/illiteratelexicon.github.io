@@ -1,0 +1,106 @@
+:root {
+	/* Coolors Pallete https://bit.ly/3EzeBdb */
+	--aero: #8eb8e5;
+	--medium-spring-green: #50ffb1;
+	--maize-crayola: #f4c95d;
+	--burnished-brown: #a78682;
+	--independence: #45425a;
+	--warm-black: #104547;
+	--russian-violet: #320e3b;
+	--oxford-blue: #0e1c36;
+	--davys-grey: #4c5454;
+	--eerie-black: #1c1c1c;
+}
+
+* {
+    margin:0;
+}
+
+.right {
+	text-align: right;
+}
+
+.left {
+	text-align: left;
+}
+
+body {
+	background-color: var(--eerie-black);
+}
+
+.title_bar {
+	background-color: var(--independence);
+	padding: 10px;
+	width: 100%;
+	vertical-align: middle;
+}
+
+.title_bar td * {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.title_bar h1 {
+	color: var(--medium-spring-green);	
+	font-size: 20pt;
+}
+
+.title_bar p {
+	color: var(--maize-crayola);	
+	font-size: 15pt;
+}
+
+.title_bar td a {
+	color: var(--aero);	
+	font-size: 15pt;
+	text-decoration: none;	
+}
+
+.title_bar td .cur {
+	font-size: 15pt;
+	text-decoration: none;	
+	color: var(--medium-spring-green);
+}
+
+.title_bar td a:hover {
+	color: var(--medium-spring-green);
+}
+
+#main {
+	padding: 40px 60px;
+	border-radius: 10px;
+}
+
+#main h2 {
+	color: var(--medium-spring-green);
+	font-weight: bolder;
+}
+
+#main h2 i {
+	color: var(--davys-grey);
+	font-weight: lighter;
+}
+
+#main p {
+	font-size: 15pt;
+	color: var(--burnished-brown);
+	font-weight: normal;
+	padding-left: 4ex;
+	text-indent: 1ex;
+}
+
+#main li {
+	font-size: 15pt;
+	color: var(--burnished-brown);
+	font-weight: normal;
+}
+
+#main a {
+	color: var(--aero);	
+	font-size: 15pt;
+	text-decoration: none;	
+}
+
+#main a:hover {
+	color: var(--medium-spring-green);
+}
